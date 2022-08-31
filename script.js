@@ -19,6 +19,8 @@ function initMap() {
     zoom: 13,
     center: bucheon,
     styles: myStyles,
+    mapTypeControl: false,
+    streetViewControl: false,
   });
 
   new google.maps.Marker({
