@@ -88,42 +88,23 @@ function initMap() {
   });
 
   //add markers from database of data.json
-  /*for (var i = 0; i < database.length; i++) {
-    marker = new google.maps.Marker({
-      position: new google.maps.LatLng( //position of marker
-        database[i].position[0],
-        database[i].position[1]
-      ),
-      map: map,
-      icon: img_arr[database[i].icon], //image format of marker
-      /*label: {
-        //label of marker
-        text: /*img_arr[database[i].icon].nm + String(
-          img_arr[database[i].icon].num++
-        ),
-        color: "black",
-        fontSize: "17px",
-        fontWeight: "bold",
-      },
-    });
-    var contentString = database[i].title;
 
-    var infowindow = new google.maps.InfoWindow({ content: contentString });
-
-    google.maps.event.addListener(marker, "click", function () {
-      infowindow.open(map, marker);
-    });
-  }*/
   for (index in database) addMarker(database[index]);
   var prev_info = false;
   function addMarker(data) {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(data.position[0], data.position[1]),
       map: map,
-      icon: img_arr[data.icon],
+      icon: {
+        url: `./img/${data.type}.png`,
+        scaledSize: new google.maps.Size(40, 40),
+      },
     });
 
-    var contentString = data.title;
+    var contentString = `<div style="margin-bottom:20px;">
+          <h2>${data.title}</h2>
+          <p><img src="./img/view/${data.pic}" width="480" height="270"></p>
+          </div>`;
     var infowindow = new google.maps.InfoWindow({ content: contentString });
     google.maps.event.addListener(marker, "click", function () {
       if (prev_info) {
