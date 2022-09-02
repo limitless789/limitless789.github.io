@@ -1,4 +1,51 @@
 //script.js
+const mapStyle = [
+  {
+    featureType: "administrative",
+    elementType: "all",
+    stylers: [{ visibility: "on" }, { lightness: 33 }],
+  },
+  {
+    featureType: "landscape.man_made",
+    elementType: "geometry.Fill",
+    stylers: [{ color: "#eee6c4" }],
+  },
+  {
+    featureType: "landscape.man_made",
+    elementType: "geometry.Stroke",
+    stylers: [{ color: "#000000" }, { lightness: 40 }],
+  },
+  {
+    featureType: "road",
+    elementType: "all",
+    stylers: [{ lightness: 20 }],
+  },
+  {
+    featureType: "road.highway",
+    elementType: "geometry",
+    stylers: [{ color: "#a0a0a0" }],
+  },
+  {
+    featureType: "road.arterial",
+    elementType: "geometry",
+    stylers: [{ color: "#c5c6c6" }],
+  },
+  {
+    featureType: "road.local",
+    elementType: "geometry",
+    stylers: [{ color: "#d2d2d2" }],
+  },
+  {
+    featureType: "water",
+    elementType: "all",
+    stylers: [{ visibility: "on" }, { color: "#acbcc9" }],
+  },
+  {
+    featureType: "poi",
+    elementType: "labels",
+    stylers: [{ visibility: "off" }],
+  },
+];
 
 var map;
 var img_park;
@@ -37,6 +84,7 @@ function initMap() {
     styles: myStyles,
     mapTypeControl: false,
     streetViewControl: false,
+    styles: mapStyle,
   });
 
   //add markers from database of data.json
