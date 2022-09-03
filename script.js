@@ -102,7 +102,7 @@ function initMap() {
     });
 
     var contentString = `<div style="text-align:center">
-          <h2 style="font-size:25px">${data.title}</h2>
+          <h2 style="font-size:25px; padding: 5px 0px 20px 0px;">${data.title}</h2>
           <p><img src="./img/view/${data.pic}" width="480" height="270"></p>
           </div>`;
     var infowindow = new google.maps.InfoWindow({ content: contentString });
