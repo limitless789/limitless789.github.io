@@ -9,14 +9,14 @@ data =
     
     {
         "position": ["37.4847614", "126.7828217"],
-        "type": "parks",
+        "type": "plaza",
         "title": "부천 마루광장",
         "pic": "중앙공원.jpg"
     },
 
     {
       "position": ["37.4834089", "126.7822603"],
-      "type": "parks",
+      "type": "plaza",
       "title": "부천역 남부광장",
       "pic": "중앙공원.jpg"
     },
@@ -68,6 +68,7 @@ data =
       "position": ["37.49007941", "126.7454635" ],
       "type": "parks",
       "title": "원천공원",
-      "pic": "원천공원.jpg"
+      "pic": "원천공원.jpg",
+      "iconsrc": "<a href=https://www.flaticon.com/free-icons/concert title=concert icons>Concert icons created by Freepik - Flaticon</a>"
     },
   ]
