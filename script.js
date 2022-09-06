@@ -113,7 +113,7 @@ function initMap() {
             <h2 style="font-size:25px; padding: 5px 0px 10px 0px;">${data.title}</h2>
             <div id="imgcenter">
               <p><img src="./img/view/${data.pic}" width="480" height="270" style="margin: 10px 10px 0px 10px"></p>
-                <div style="position:absolute; bottom:125px; right:26px">
+                <div style="position:absolute; bottom:125px; right:16px">
                   <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
                   <img  src="./img/button.png" width="40" height="40"></button>
                 </div>
