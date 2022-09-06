@@ -79,8 +79,8 @@ function initMap() {
     });
 
     var contentString = `<div style="text-align:center">
-          <h2 style="font-size:25px; padding: 5px 0px 20px 0px;">${data.title}</h2>
-          <p><img src="./img/view/${data.pic}" width="480" height="270"></p>
+          <h2 style="font-size:25px; padding: 5px 0px 10px 0px;">${data.title}</h2>
+          <p><img src="./img/view/${data.pic}" width="480" height="270" style="margin: 10px 10px 0px 10px"></p>
           </div>`;
     var infowindow = new google.maps.InfoWindow({ content: contentString });
     google.maps.event.addListener(marker, "click", function () {
