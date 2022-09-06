@@ -4,70 +4,80 @@ data =
         "position": ["37.5006223", "126.7656312"],
         "type": "parks",
         "title": "중앙공원",
-        "pic": "중앙공원.jpg"
+        "pic": "중앙공원.jpg",
+        "place":"중앙공원",
     },
     
     {
       "position": ["37.4834089", "126.7822603"],
       "type": "plaza",
       "title": "부천역 남부광장",
-      "pic": "중앙공원.jpg"
+      "pic": "중앙공원.jpg",
+      "place":"부천역",
     },
 
     {
         "position": ["37.4847614", "126.7828217"],
         "type": "plaza",
         "title": "부천 마루광장",
-        "pic": "중앙공원.jpg"
+        "pic": "중앙공원.jpg",
+        "place":"부천역",
     },
 
     {
       "position": ["37.47435837", "126.7897592"],
       "type": "parks",
       "title": "산새공원",
-      "pic": "중앙공원.jpg"
+      "pic": "중앙공원.jpg",
+      "place":"산새공원",
     },
 
     {
         "position": ["37.4947512", "126.75401356" ],
         "type": "center",
         "title": "복사골 문화센터",
-        "pic": "복사골dmz.jpg"
+        "pic": "복사골dmz.jpg",
+        "place":"복사골",
     },
 
     {
       "position": ["37.48835415", "126.7497604" ],
       "type": "parks",
       "title": "서촌공원",
-      "pic": "서촌공원.jpg"
+      "pic": "서촌공원.jpg",
+      "place":"서촌공원",
     },
 
     {
       "position": ["37.487880179", "126.75795401" ],
       "type": "parks",
       "title": "솔안공원",
-      "pic": "솔안공원.jpg"
+      "pic": "솔안공원.jpg",
+      "place":"솔안공원",
     },
 
     {
       "position": ["37.50241567", "126.76579533" ],
       "type": "center",
       "title": "시청 특설무대",
-      "pic": "시청.jpg"
+      "pic": "시청.jpg",
+      "place":"시청",
     },
 
     {
       "position": ["37.50437120", "126.7592466" ],
       "type": "parks",
       "title": "안중근공원",
-      "pic": "안중근공원.jpg"
+      "pic": "안중근공원.jpg",
+      "place":"안중근공원",
     },
 
     {
       "position": ["37.48825402", "126.7535599" ],
       "type": "plaza",
       "title": "송내 무지개광장",
-      "pic": "무지개광장.jpg"
+      "pic": "무지개광장.jpg",
+      "place":"송내역",
     },
 
     {
@@ -75,6 +85,7 @@ data =
       "type": "parks",
       "title": "원천공원",
       "pic": "원천공원.jpg",
+      "place":"원천공원",
       "iconsrc": "<a href=https://www.flaticon.com/free-icons/concert title=concert icons>Concert icons created by Freepik - Flaticon</a>"
     },
 
@@ -82,28 +93,32 @@ data =
       "position": ["37.52743575", "126.82520132" ],
       "type": "parks",
       "title": "고리울 가로공원",
-      "pic": "고리울가로공원.jpg"
+      "pic": "고리울가로공원.jpg",
+      "place":"가로공원",
     },
 
     {
       "position": ["37.47622916", "126.80627112" ],
       "type": "parks",
       "title": "목일신공원",
-      "pic": "목일신공원.jpg"
+      "pic": "목일신공원.jpg",
+      "place":"목일신공원",
     },
 
     {
       "position": ["37.47005067", "126.82823462" ],
       "type": "parks",
       "title": "남부 수자원 생태공원",
-      "pic": "수자원공원.jpg"
+      "pic": "수자원공원.jpg",
+      "place":"수자원공원",
     },
     
     {
       "position": ["37.52992743", "126.79466613" ],
       "type": "parks",
       "title": "오정대공원 잔디광장",
-      "pic": "오정대공원.jpg"
+      "pic": "오정대공원.jpg",
+      "place":"오정대공원",
     },
   ]
   
