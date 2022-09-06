@@ -49,7 +49,6 @@ const mapStyle = [
 
 var map;
 let hash_map = new Map();
-var markers = new Map();
 let hash_num = new Map();
 function initMap() {
   let database = JSON.parse(JSON.stringify(data));
@@ -81,14 +80,14 @@ function initMap() {
         id: data.place,
       });
       var contentString = `<div style="text-align:center">
-            <h2 style="font-size:25px; padding: 5px 0px 10px 0px;">${data.title}</h2>
+            <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
             <div id="imgcenter">
-              <p><img src="./img/view/${data.pic}" width="480" height="270" style="margin: 10px 10px 0px 10px"></p>
-                <div style="position:absolute; bottom:125px; right:16px">
+              <p><img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 10px 0px 10px"></p>
+                <div style="position:absolute; bottom:165px; right:16px">
                   <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
                   <img  src="./img/button.png" width="40" height="40"></button>
                 </div>
-                <div style="position:absolute; bottom:125px; right:456px">
+                <div style="position:absolute; bottom:165px; left:16px">
                   <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
                   <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
                 </div>
@@ -105,19 +104,18 @@ function initMap() {
       });
       infos = new Array();
       infos.push(infowindow);
-      markers.set(data.place, marker);
       hash_map.set(data.place, infos);
       hash_num.set(data.place, 0);
     } else {
       var contentString = `<div style="text-align:center">
-            <h2 style="font-size:25px; padding: 5px 0px 10px 0px;">${data.title}</h2>
+            <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
             <div id="imgcenter">
-              <p><img src="./img/view/${data.pic}" width="480" height="270" style="margin: 10px 10px 0px 10px"></p>
-                <div style="position:absolute; bottom:125px; right:16px">
+              <p><img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 10px 0px 10px"></p>
+                <div style="position:absolute; bottom:165px; right:16px">
                   <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
                   <img  src="./img/button.png" width="40" height="40"></button>
                 </div>
-                <div style="position:absolute; bottom:125px; right:456px">
+                <div style="position:absolute; bottom:165px; left:16px">
                   <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
                   <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
                 </div>
@@ -135,7 +133,6 @@ function right_click_action(place) {
   if (hash_map.has(place)) {
     var infos = hash_map.get(place);
     if (infos.length == 1) {
-      console.log("hello");
       return;
     } else {
       var number = hash_num.get(place);
@@ -143,7 +140,6 @@ function right_click_action(place) {
         var content = infos[number + 1].getContent();
         infos[number + 1].setContent(infos[0].getContent());
         infos[0].setContent(content);
-        console.log("hi");
         hash_num.set(place, number + 1);
       }
     }
@@ -153,14 +149,12 @@ function left_click_action(place) {
   if (hash_map.has(place)) {
     var infos = hash_map.get(place);
     if (infos.length == 1) {
-      console.log("hello");
       return;
     } else {
       var number = hash_num.get(place);
       var content = infos[number].getContent();
       infos[number].setContent(infos[0].getContent());
       infos[0].setContent(content);
-      console.log("hi");
       if (number - 1 >= 0) hash_num.set(place, number - 1);
     }
   }
