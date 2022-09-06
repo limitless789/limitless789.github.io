@@ -80,19 +80,19 @@ function initMap() {
         id: data.place,
       });
       var contentString = `<div style="text-align:center">
-            <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
-            <div id="imgcenter">
-              <p><img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 4px 0px 10px"></p>
-                <div style="position:absolute; bottom:165px; right:16px">
-                  <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-                  <img  src="./img/button.png" width="40" height="40"></button>
-                </div>
-                <div style="position:absolute; bottom:165px; left:16px">
-                  <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-                  <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
-                </div>
-            </div>
-          </div>`;
+        <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
+        <div style="position:absolute; bottom:380px; right:16px">
+            <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
+            <img  src="./img/button.png" width="40" height="40"></button>
+        </div>
+        <div style="position:absolute; bottom:380px; left:16px">
+          <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
+          <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
+        </div>
+        <div id="imgcenter">
+          <img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 4px 10px 10px">
+        </div>
+      </div>`;
       var infowindow = new google.maps.InfoWindow({ content: contentString });
       google.maps.event.addListener(marker, "click", function () {
         map.setCenter(this.getPosition());
@@ -108,19 +108,19 @@ function initMap() {
       hash_num.set(data.place, 0);
     } else {
       var contentString = `<div style="text-align:center">
-            <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
-            <div id="imgcenter">
-              <p><img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 10px 0px 10px"></p>
-                <div style="position:absolute; bottom:165px; right:16px">
-                  <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-                  <img  src="./img/button.png" width="40" height="40"></button>
-                </div>
-                <div style="position:absolute; bottom:165px; left:16px">
-                  <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-                  <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
-                </div>
-            </div>
-          </div>`;
+        <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
+        <div style="position:absolute; bottom:380px; right:16px">
+          <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
+          <img  src="./img/button.png" width="40" height="40"></button>
+        </div>
+        <div style="position:absolute; bottom:380px; left:16px">
+          <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
+          <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
+        </div>
+        <div id="imgcenter">
+          <img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 4px 10px 10px">
+        </div>
+      </div>`;
       var infowindow = new google.maps.InfoWindow({ content: contentString });
       var infos = hash_map.get(data.place);
       infos.push(infowindow);

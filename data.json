@@ -1,11 +1,11 @@
 data =
   [
     {
-        "position": ["37.5006223", "126.7656312"],
-        "type": "parks",
-        "title": "중앙공원",
-        "pic": "중앙공원.jpg",
-        "place":"중앙공원",
+      "position": ["37.5006223", "126.7656312"],
+      "type": "parks",
+      "title": "중앙공원",
+      "pic": "중앙공원.jpg",
+      "place":"중앙공원",
     },
     
     {
@@ -13,15 +13,15 @@ data =
       "type": "plaza",
       "title": "부천역 남부광장",
       "pic": "중앙공원.jpg",
-      "place":"부천역",
+      "place":"부천역남부",
     },
 
     {
-        "position": ["37.4847614", "126.7828217"],
-        "type": "plaza",
-        "title": "부천 마루광장",
-        "pic": "중앙공원.jpg",
-        "place":"부천역",
+      "position": ["37.4847614", "126.7828217"],
+      "type": "plaza",
+      "title": "부천 마루광장",
+      "pic": "복사골dmz.jpg",
+      "place":"부천역북부",
     },
 
     {
@@ -33,11 +33,11 @@ data =
     },
 
     {
-        "position": ["37.4947512", "126.75401356" ],
-        "type": "center",
-        "title": "복사골 문화센터",
-        "pic": "복사골dmz.jpg",
-        "place":"복사골",
+      "position": ["37.4947512", "126.75401356" ],
+      "type": "center",
+      "title": "복사골 문화센터",
+      "pic": "복사골dmz.jpg",
+      "place":"복사골",
     },
 
     {
