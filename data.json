@@ -35,9 +35,21 @@ data =
     {
       "position": ["37.4947512", "126.75401356" ],
       "type": "center",
-      "title": "복사골 문화센터",
+      "title": "복사골 문화센터 dmz",
       "pic": "복사골dmz.jpg",
       "place":"복사골",
+      "link":"https://www.notion.so/ko-kr",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4947512", "126.75401356" ],
+      "type": "center",
+      "title": "복사골 문화센터 공연장",
+      "pic": "복사골dmz.jpg",
+      "place":"복사골",
+      "link":"https://www.notion.so/ko-kr",
+      "button":"o",
     },
 
     {

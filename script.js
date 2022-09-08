@@ -81,16 +81,18 @@ function initMap() {
       });
       var contentString = `<div style="text-align:center">
         <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
-        <div style="position:absolute; bottom:380px; right:16px">
-            <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-            <img  src="./img/button.png" width="40" height="40"></button>
+        <div style="position:absolute; bottom:378px; right:16px">
+          <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
+          <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
         </div>
-        <div style="position:absolute; bottom:380px; left:16px">
+        <div style="position:absolute; bottom:378px; left:16px">
           <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-          <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
+          <img  src="./img/butt${data.button}n.png" width="40" height="40" style="transform: scaleX(-1)" onerror="this.parentNode.style.display='none'">
         </div>
         <div id="imgcenter">
+          <a href=${data.link} target="_blank">
           <img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 4px 10px 10px">
+          </a>
         </div>
       </div>`;
       var infowindow = new google.maps.InfoWindow({ content: contentString });
@@ -109,16 +111,18 @@ function initMap() {
     } else {
       var contentString = `<div style="text-align:center">
         <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
-        <div style="position:absolute; bottom:380px; right:16px">
+        <div style="position:absolute; bottom:378px; right:16px">
           <button type="button" onclick="right_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-          <img  src="./img/button.png" width="40" height="40"></button>
+          <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
         </div>
-        <div style="position:absolute; bottom:380px; left:16px">
+        <div style="position:absolute; bottom:378px; left:16px">
           <button type="button" onclick="left_click_action('${data.place}')" style="border: 0; outline:none; background-color:transparent; cursor:pointer">
-          <img  src="./img/button.png" width="40" height="40" style="transform: scaleX(-1)"></button>
+          <img  src="./img/butt${data.button}n.png" width="40" height="40" style="transform: scaleX(-1)" onerror="this.parentNode.style.display='none'">
         </div>
         <div id="imgcenter">
+          <a href=${data.link} target="_blank">
           <img src="./img/view/${data.pic}" width="480px" height="330px" style="margin: 5px 4px 10px 10px">
+          </a>
         </div>
       </div>`;
       var infowindow = new google.maps.InfoWindow({ content: contentString });
