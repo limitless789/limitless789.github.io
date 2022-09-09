@@ -79,6 +79,7 @@ function initMap() {
         },
         id: data.place,
       });
+
       var contentString = `<div style="text-align:center">
         <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
         <div style="position:absolute; bottom:378px; right:16px">
@@ -95,7 +96,9 @@ function initMap() {
           </a>
         </div>
       </div>`;
+
       var infowindow = new google.maps.InfoWindow({ content: contentString });
+
       google.maps.event.addListener(marker, "click", function () {
         map.setCenter(this.getPosition());
         if (prev_info) {
@@ -104,10 +107,13 @@ function initMap() {
         infowindow.open(map, marker);
         prev_info = infowindow;
       });
+
       infos = new Array();
       infos.push(infowindow);
-      hash_map.set(data.place, infos);
-      hash_num.set(data.place, 0);
+      if (data.button == "o") {
+        hash_map.set(data.place, infos);
+        hash_num.set(data.place, 0);
+      }
     } else {
       var contentString = `<div style="text-align:center">
         <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
@@ -125,7 +131,9 @@ function initMap() {
           </a>
         </div>
       </div>`;
+
       var infowindow = new google.maps.InfoWindow({ content: contentString });
+
       var infos = hash_map.get(data.place);
       infos.push(infowindow);
       hash_map.set(data.place, infos);
@@ -145,10 +153,13 @@ function right_click_action(place) {
         infos[number + 1].setContent(infos[0].getContent());
         infos[0].setContent(content);
         hash_num.set(place, number + 1);
+      } else {
+        for (var i = 0; i < number; i++) left_click_action(place);
       }
     }
   }
 }
+
 function left_click_action(place) {
   if (hash_map.has(place)) {
     var infos = hash_map.get(place);
@@ -156,10 +167,14 @@ function left_click_action(place) {
       return;
     } else {
       var number = hash_num.get(place);
-      var content = infos[number].getContent();
-      infos[number].setContent(infos[0].getContent());
-      infos[0].setContent(content);
-      if (number - 1 >= 0) hash_num.set(place, number - 1);
+      if (number > 0) {
+        var content = infos[number].getContent();
+        infos[number].setContent(infos[0].getContent());
+        infos[0].setContent(content);
+        hash_num.set(place, number - 1);
+      } else {
+        for (var i = 0; i < infos.length - 1; i++) right_click_action(place);
+      }
     }
   }
 }
