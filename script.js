@@ -70,15 +70,28 @@ function initMap() {
   var prev_info = false;
   function addMarker(data) {
     if (!hash_map.has(data.place)) {
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(data.position[0], data.position[1]),
-        map: map,
-        icon: {
-          url: `./img/${data.type}.png`,
-          scaledSize: new google.maps.Size(40, 40),
-        },
-        id: data.place,
-      });
+      var marker;
+      if (data.type != "rail") {
+        marker = new google.maps.Marker({
+          position: new google.maps.LatLng(data.position[0], data.position[1]),
+          map: map,
+          icon: {
+            url: `./img/${data.type}.png`,
+            scaledSize: new google.maps.Size(40, 40),
+          },
+          id: data.place,
+        });
+      } else {
+        marker = new google.maps.Marker({
+          position: new google.maps.LatLng(data.position[0], data.position[1]),
+          map: map,
+          icon: {
+            url: `./img/${data.type}.png`,
+            scaledSize: new google.maps.Size(35, 35),
+          },
+          id: data.place,
+        });
+      }
 
       var contentString = `<div style="text-align:center">
         <h2 style="font-size:25px; padding: 0px 0px 5px 0px;">${data.title}</h2>
