@@ -1,0 +1,44 @@
+h1 {
+  color: red;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: burlywood;
+}
+a:active {
+  color: green;
+}
+a {
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  padding: 0px 0px 5px 0px;
+}
+button {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.info {
+  text-align: center;
+}
+.right_button {
+  position: absolute;
+  bottom: 378px;
+  right: 16px;
+}
+.left_button {
+  position: absolute;
+  bottom: 378px;
+  left: 16px;
+}
+.target_image {
+  margin: 5px 4px 10px 10px;
+}
