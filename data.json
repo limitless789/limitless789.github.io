@@ -31,13 +31,13 @@ data =
       "position": ["37.47435837", "126.7897592"],
       "type": "parks",
       "title": "산새공원",
-      "pic": "중앙공원.jpg",
+      "pic": "산새공원.jpg",
       "place":"산새공원",
       "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
     },
 
     {
-      "position": ["37.4947512", "126.75401356" ],
+      "position": ["37.4947512", "126.75401356"],
       "type": "center",
       "title": "복사골 문화센터 dmz",
       "pic": "복사골dmz.jpg",
@@ -47,22 +47,176 @@ data =
     },
 
     {
-      "position": ["37.4947512", "126.75401356" ],
+      "position": ["37.4947512", "126.75401356"],
       "type": "center",
-      "title": "복사골 문화센터 공연장",
-      "pic": "복사골dmz.jpg",
+      "title": "복사골 문화센터 아트홀",
+      "pic": "복사골 아트홀.jpg",
       "place":"복사골",
       "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
       "button":"o",
     },
 
     {
-      "position": ["37.48835415", "126.7497604" ],
+      "position": ["37.4947512", "126.75401356"],
+      "type": "center",
+      "title": "복사골 문화센터 갤러리",
+      "pic": "복사골 갤러리.jpg",
+      "place":"복사골",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4947512", "126.75401356"],
+      "type": "center",
+      "title": "복사골 문화센터 판타지아 극장",
+      "pic": "복사골 판타지아.jpg",
+      "place":"복사골",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4882204", "126.77043601"],
+      "type": "stage",
+      "title": "부천시민회관 대공연장",
+      "pic": "시민회관 대공연장.png",
+      "place":"시민회관",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4882204", "126.77043601"],
+      "type": "stage",
+      "title": "부천시민회관 소공연장",
+      "pic": "시민회관 소공연장.png",
+      "place":"시민회관",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4882204", "126.77043601"],
+      "type": "stage",
+      "title": "부천시민회관 대연습실1",
+      "pic": "시민회관 대연습실.jpg",
+      "place":"시민회관",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4882204", "126.77043601"],
+      "type": "stage",
+      "title": "부천시민회관 대연습실2",
+      "pic": "시민회관 대연습실2.jpg",
+      "place":"시민회관",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4882204", "126.77043601"],
+      "type": "stage",
+      "title": "부천시민회관 중연습실1",
+      "pic": "시민회관 중연습실1.jpg",
+      "place":"시민회관",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4882204", "126.77043601"],
+      "type": "stage",
+      "title": "부천시민회관 중연습실2",
+      "pic": "시민회관 중연습실2.jpg",
+      "place":"시민회관",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.51611168", "126.7851572"],
+      "type": "center",
+      "title": "도당어울마당 연습실",
+      "pic": "도당예술마당.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"도당어울마당",
+    },
+
+    {
+      "position": ["37.5089918", "126.7477179"],
+      "type": "center",
+      "title": "상동어울마당 연습실",
+      "pic": "상동예술마당.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"상동어울마당",
+    },
+
+    {
+      "position": ["37.4916593", "126.7609949"],
+      "type": "center",
+      "title": "사래이어울마당 연습실",
+      "pic": "사래이예술마당.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"사래이어울마당",
+    },
+
+    {
+      "position": ["37.4800524", "126.7999412"],
+      "type": "center",
+      "title": "소사생활문화센터 연습실",
+      "pic": "소사생활센터.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"소사센터",
+    },
+
+    {
+      "position": ["37.5277345", "126.7965501"],
+      "type": "center",
+      "title": "오정생활문화센터 연습실",
+      "pic": "오정생활센터.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"오정아트홀",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.5277345", "126.7965501"],
+      "type": "center",
+      "title": "오정아트홀",
+      "pic": "오정아트홀.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"오정아트홀",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.52156506", "126.767356"],
+      "type": "stage",
+      "title": "부천아트벙커 B39 멀티미디어홀",
+      "pic": "아트벙커.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"아트벙커",
+    },
+
+    {
+      "position": ["37.48835415", "126.7497604"],
       "type": "parks",
       "title": "서촌공원",
       "pic": "서촌공원.jpg",
       "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
       "place":"서촌공원",
+    },
+    
+    {
+      "position": ["37.51580517", "126.7900757"],
+      "type": "parks",
+      "title": "도당근린공원",
+      "pic": "도당근린공원.jpg",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "place":"도당공원",
     },
 
     {
@@ -81,6 +235,16 @@ data =
       "pic": "시청.jpg",
       "place":"시청",
       "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button": "o",
+    },
+    {
+      "position": ["37.50241567", "126.76579533" ],
+      "type": "center",
+      "title": "판타스틱 큐브",
+      "pic": "판타스틱큐브.jpg",
+      "place":"시청",
+      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "button": "o",
     },
 
     {
