@@ -194,7 +194,8 @@ function left_click_action(place) {
 
 function main_link() {
   if (window.self != window.top) {
-    alert("이곳에선 사용할 수 없는 기능입니다!");
+    var str = document.getElementById("top_text");
+    str.innerHTML = "이곳에선 사용할 수 없는 기능입니다!";
   } else {
     window.location.href =
       "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964";
