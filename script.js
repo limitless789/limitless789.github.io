@@ -194,7 +194,7 @@ function left_click_action(place) {
 
 function main_link() {
   if (window.self != window.top) {
-    var str = document.getElementById("top_text");
+    var str = document.getElementById("text");
     str.innerHTML = "이곳에선 사용할 수 없는 기능입니다!";
   } else {
     window.location.href =
