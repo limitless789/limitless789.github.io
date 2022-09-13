@@ -1,5 +1,6 @@
-h1 {
-  color: red;
+p {
+  font-size: 23px;
+  font-weight: bold;
 }
 a:link {
   color: black;
