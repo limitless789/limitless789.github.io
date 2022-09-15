@@ -97,11 +97,13 @@ function initMap() {
         <h2>${data.title}</h2>
         <div class="right_button">
           <button type="button" onclick="right_click_action('${data.place}')">
-          <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
+            <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
+          </button>
         </div>
         <div class="left_button">
           <button type="button" onclick="left_click_action('${data.place}')">
-          <img  src="./img/butt${data.button}n.png" width="40" height="40" style="transform: scaleX(-1)" onerror="this.parentNode.style.display='none'">
+            <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
+          </button>
         </div>
         <div id="imgcenter">
           <a href=${data.link} target="_blank">
@@ -132,11 +134,13 @@ function initMap() {
         <h2>${data.title}</h2>
         <div class="right_button">
           <button type="button" onclick="right_click_action('${data.place}')">
-          <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
+            <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
+            </button>
         </div>
         <div class="left_button">
           <button type="button" onclick="left_click_action('${data.place}')">
-          <img  src="./img/butt${data.button}n.png" width="40" height="40" style="transform: scaleX(-1)" onerror="this.parentNode.style.display='none'">
+            <img  src="./img/butt${data.button}n.png" width="40" height="40" onerror="this.parentNode.style.display='none'">
+            </button>
         </div>
         <div id="imgcenter">
           <a href=${data.link} target="_blank">
@@ -198,6 +202,6 @@ function main_link() {
     str.innerHTML = "이곳에선 사용할 수 없는 기능입니다!";
   } else {
     window.location.href =
-      "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964";
+      "https://boramaearchive.notion.site/34e902c50ac74258954b979f311a2964";
   }
 }

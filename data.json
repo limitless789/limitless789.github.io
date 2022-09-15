@@ -6,7 +6,7 @@ data =
       "title": "중앙공원",
       "pic": "중앙공원.jpg",
       "place":"중앙공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/3ca42c9e4d6f4cf2b19cd678559b0e84",
     },
     
     {
@@ -22,9 +22,9 @@ data =
       "position": ["37.4847614", "126.7828217"],
       "type": "plaza",
       "title": "부천 마루광장",
-      "pic": "복사골dmz.jpg",
+      "pic": "마루광장.jpg",
       "place":"부천역북부",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/e2c528c5668a48bdbb8d0af3d731beba",
     },
 
     {
@@ -33,7 +33,7 @@ data =
       "title": "산새공원",
       "pic": "산새공원.jpg",
       "place":"산새공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/6506ada45ed941df9ac6f57c696e0eab",
     },
 
     {
@@ -42,7 +42,7 @@ data =
       "title": "복사골 문화센터 dmz",
       "pic": "복사골dmz.jpg",
       "place":"복사골",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/DMZ-bb67fc4439244480ba2f0be9d0e16913",
       "button":"o",
     },
 
@@ -52,17 +52,7 @@ data =
       "title": "복사골 문화센터 아트홀",
       "pic": "복사골 아트홀.jpg",
       "place":"복사골",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
-      "button":"o",
-    },
-
-    {
-      "position": ["37.4947512", "126.75401356"],
-      "type": "center",
-      "title": "복사골 문화센터 갤러리",
-      "pic": "복사골 갤러리.jpg",
-      "place":"복사골",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/8c3967dca5764cb4bdfe3c99d4ca3720",
       "button":"o",
     },
 
@@ -72,7 +62,7 @@ data =
       "title": "복사골 문화센터 판타지아 극장",
       "pic": "복사골 판타지아.jpg",
       "place":"복사골",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/1961f33b3ea243fc8587cacf2b0cc356",
       "button":"o",
     },
 
@@ -82,7 +72,7 @@ data =
       "title": "부천시민회관 대공연장",
       "pic": "시민회관 대공연장.png",
       "place":"시민회관",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/edcc33cd5c264bce8f4d32cca6c30f94",
       "button":"o",
     },
 
@@ -92,7 +82,7 @@ data =
       "title": "부천시민회관 소공연장",
       "pic": "시민회관 소공연장.png",
       "place":"시민회관",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/6142bc6fb7804dd485bae7aad0ec6982",
       "button":"o",
     },
 
@@ -102,7 +92,7 @@ data =
       "title": "부천시민회관 대연습실1",
       "pic": "시민회관 대연습실.jpg",
       "place":"시민회관",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/1-89c0139913ad4e14be62d1896a6525be",
       "button":"o",
     },
 
@@ -112,7 +102,7 @@ data =
       "title": "부천시민회관 대연습실2",
       "pic": "시민회관 대연습실2.jpg",
       "place":"시민회관",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/2-14429c030da24363bcd3fc7807ff95a1",
       "button":"o",
     },
 
@@ -122,7 +112,7 @@ data =
       "title": "부천시민회관 중연습실1",
       "pic": "시민회관 중연습실1.jpg",
       "place":"시민회관",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/1-c18454e7884d425e8d79c65dce6f8e00",
       "button":"o",
     },
 
@@ -132,7 +122,7 @@ data =
       "title": "부천시민회관 중연습실2",
       "pic": "시민회관 중연습실2.jpg",
       "place":"시민회관",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/2-cfa66244e4ad4014b0709e0137a97b08",
       "button":"o",
     },
 
@@ -141,7 +131,7 @@ data =
       "type": "center",
       "title": "도당어울마당 연습실",
       "pic": "도당예술마당.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/89ac9ceb3b364600a3afc275658b538f",
       "place":"도당어울마당",
     },
 
@@ -150,7 +140,7 @@ data =
       "type": "center",
       "title": "상동어울마당 연습실",
       "pic": "상동예술마당.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/035b2c7b785c4722bf5df3c8bf3bf557",
       "place":"상동어울마당",
     },
 
@@ -159,7 +149,7 @@ data =
       "type": "center",
       "title": "사래이어울마당 연습실",
       "pic": "사래이예술마당.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/e0f362fa7b3c4d9da7d952391fc7aa2c",
       "place":"사래이어울마당",
     },
 
@@ -168,7 +158,7 @@ data =
       "type": "center",
       "title": "소사생활문화센터 연습실",
       "pic": "소사생활센터.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/199f2ad5f16147d08de9f8a11199c766",
       "place":"소사센터",
     },
 
@@ -177,7 +167,7 @@ data =
       "type": "center",
       "title": "오정생활문화센터 연습실",
       "pic": "오정생활센터.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/ee6c4dd70e094a788e0f7412703daabd",
       "place":"오정아트홀",
       "button": "o",
     },
@@ -187,7 +177,7 @@ data =
       "type": "center",
       "title": "오정아트홀",
       "pic": "오정아트홀.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/81a652a6849848848ba8bc8b86edcd57",
       "place":"오정아트홀",
       "button": "o",
     },
@@ -197,7 +187,7 @@ data =
       "type": "stage",
       "title": "부천아트벙커 B39 멀티미디어홀",
       "pic": "아트벙커.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/B39-68494202b4224ed1b3bb8efab04ed42b",
       "place":"아트벙커",
     },
 
@@ -206,7 +196,7 @@ data =
       "type": "parks",
       "title": "서촌공원",
       "pic": "서촌공원.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/6b5bbcf532df455fba4a9fd067d8ff2f",
       "place":"서촌공원",
     },
     
@@ -215,7 +205,7 @@ data =
       "type": "parks",
       "title": "도당근린공원",
       "pic": "도당근린공원.jpg",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/2887af7ebf3d45dab2d8ef7b9397b9e9",
       "place":"도당공원",
     },
 
@@ -225,35 +215,25 @@ data =
       "title": "솔안공원",
       "pic": "솔안공원.jpg",
       "place":"솔안공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/a9c1e289f6544d2487cfac9492531f54",
     },
 
     {
       "position": ["37.50241567", "126.76579533" ],
-      "type": "center",
+      "type": "plaza",
       "title": "시청 특설무대",
       "pic": "시청.jpg",
       "place":"시청",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
-      "button": "o",
+      "link" : "https://boramaearchive.notion.site/3605061ac70141c18b95861788afc96f",
     },
-    {
-      "position": ["37.50241567", "126.76579533" ],
-      "type": "center",
-      "title": "판타스틱 큐브",
-      "pic": "판타스틱큐브.jpg",
-      "place":"시청",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
-      "button": "o",
-    },
-
+    
     {
       "position": ["37.50437120", "126.7592466" ],
       "type": "parks",
       "title": "안중근공원",
       "pic": "안중근공원.jpg",
       "place":"안중근공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/bb570a8a7d4c4379930fe43fd0363553",
     },
 
     {
@@ -262,7 +242,7 @@ data =
       "title": "송내 무지개광장",
       "pic": "무지개광장.jpg",
       "place":"송내역",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/7585e59f76a14e358aaa1d5c4188caa5",
     },
 
     {
@@ -271,8 +251,7 @@ data =
       "title": "원천공원",
       "pic": "원천공원.jpg",
       "place":"원천공원",
-      "iconsrc": "<a href=https://www.flaticon.com/free-icons/concert title=concert icons>Concert icons created by Freepik - Flaticon</a>",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/a445135bd90c421f8b413f9735f8685f",
     },
 
     {
@@ -281,7 +260,7 @@ data =
       "title": "고리울 가로공원",
       "pic": "고리울가로공원.jpg",
       "place":"가로공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/a651a09c42794e02a73803e52940c1c1",
     },
 
     {
@@ -290,7 +269,7 @@ data =
       "title": "목일신공원",
       "pic": "목일신공원.jpg",
       "place":"목일신공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/429705a840a24620a718dd0de42f858f",
     },
 
     {
@@ -299,7 +278,7 @@ data =
       "title": "남부 수자원 생태공원",
       "pic": "수자원공원.jpg",
       "place":"수자원공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/55edb82c308846859f4f31940a0b364e",
     },
     
     {
@@ -308,7 +287,7 @@ data =
       "title": "오정대공원 잔디광장",
       "pic": "오정대공원.jpg",
       "place":"오정대공원",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/073cfb814bb14fc49303a6ba4ac3dd80",
     },
 
     {
@@ -317,7 +296,7 @@ data =
       "title": "미관광장",
       "pic": "미관광장.jpg",
       "place":"미관광장",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/850bbb30576f43d084d3b092c9e848e3",
     },
     {
       "position": ["37.5058181", "126.753072469"],
@@ -325,7 +304,7 @@ data =
       "title": "상동역",
       "pic": "상동역.jpg",
       "place":"상동역",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/f5cf9b480415453d88ad76253878cffb",
     },
 
     {
@@ -334,7 +313,7 @@ data =
       "title": "춘의역",
       "pic": "춘의역.jpg",
       "place":"춘의역",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
+      "link" : "https://boramaearchive.notion.site/4edc58afd9f14978a0c5499c5bea6f77",
     },
 
   ]
