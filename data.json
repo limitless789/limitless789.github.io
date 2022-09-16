@@ -136,15 +136,6 @@ data =
     },
 
     {
-      "position": ["37.4916593", "126.7609949"],
-      "type": "center",
-      "title": "사래이어울마당 연습실",
-      "pic": "사래이예술마당.jpg",
-      "link" : "https://boramaearchive.notion.site/e0f362fa7b3c4d9da7d952391fc7aa2c",
-      "place":"사래이어울마당",
-    },
-
-    {
       "position": ["37.4800524", "126.7999412"],
       "type": "center",
       "title": "소사생활문화센터 연습실",
