@@ -8,15 +8,6 @@ data =
       "place":"중앙공원",
       "link" : "https://boramaearchive.notion.site/3ca42c9e4d6f4cf2b19cd678559b0e84",
     },
-    
-    {
-      "position": ["37.4834089", "126.7822603"],
-      "type": "plaza",
-      "title": "부천역 남부광장",
-      "pic": "중앙공원.jpg",
-      "place":"부천역남부",
-      "link" : "https://shell-pyramid-486.notion.site/34e902c50ac74258954b979f311a2964",
-    },
 
     {
       "position": ["37.4847614", "126.7828217"],
@@ -183,8 +174,155 @@ data =
     },
 
     {
-      "position": ["37.52156506", "126.767356"],
+      "position": ["37.4825230", "126.76656973"],
       "type": "stage",
+      "title": "솔안아트홀",
+      "pic": "솔안아트홀.jpg",
+      "link" : "https://boramaearchive.notion.site/62a66bf4bfab4e1594eaa6ea229fc35f",
+      "place":"솔안아트홀",
+    },
+
+    {
+      "position": ["37.4901864", "126.78576574"],
+      "type": "center",
+      "title": "부천평생학습센터 e-스튜디오",
+      "pic": "다목적스튜디오.jpg",
+      "link" : "https://boramaearchive.notion.site/e-5c7789b0db6f4714b1734cc88c3af89a",
+      "place":"부천평생학습센터",
+    },
+
+    {
+      "position": ["37.48195907", "126.761650455"],
+      "type": "music",
+      "title": "음악공장B 밴드연습실",
+      "pic": "컨센밴드.jpg",
+      "link" : "https://boramaearchive.notion.site/B-48ecf53ecb434735bf16be905686f72a",
+      "place":"음악공장",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.48195907", "126.761650455"],
+      "type": "music",
+      "title": "음악공장B 개인연습실",
+      "pic": "개인연습실.jpg",
+      "link" : "https://boramaearchive.notion.site/B-48ecf53ecb434735bf16be905686f72a",
+      "place":"음악공장",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.48195907", "126.761650455"],
+      "type": "music",
+      "title": "음악공장B 녹음실",
+      "pic": "음악녹음실.jpg",
+      "link" : "https://boramaearchive.notion.site/B-48ecf53ecb434735bf16be905686f72a",
+      "place":"음악공장",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.4990314", "126.79821125"],
+      "type": "center",
+      "title": "원미도서관 오픈스튜디오",
+      "pic": "오픈스튜디오.jpg",
+      "link" : "https://boramaearchive.notion.site/55c826843e3141adb6c543b1103c074d",
+      "place":"원미도서관",
+    },
+
+    {
+      "position": ["37.50155342", "126.78748336"],
+      "type": "studio",
+      "title": "경기콘텐츠진흥원 영상스튜디오",
+      "pic": "영상스튜디오.jpg",
+      "link" : "https://boramaearchive.notion.site/bdcfc986897543d4a5d941b22195fdcf",
+      "place":"경콘",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.50155342", "126.78748336"],
+      "type": "studio",
+      "title": "경기콘텐츠진흥원 사진촬영실",
+      "pic": "사진촬영실.jpg",
+      "link" : "https://boramaearchive.notion.site/bdcfc986897543d4a5d941b22195fdcf",
+      "place":"경콘",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.5087347", "126.7423464"],
+      "type": "center",
+      "title": "부천만화박물관 야외광장",
+      "pic": "만화광장.jpg",
+      "link" : "https://boramaearchive.notion.site/3ee1ec6100954725bde67b99607d0fb6",
+      "place":"만화박물관",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.5087347", "126.7423464"],
+      "type": "center",
+      "title": "부천만화박물관 만화영상상영관",
+      "pic": "만화상영관.jpg",
+      "link" : "https://boramaearchive.notion.site/3ee1ec6100954725bde67b99607d0fb6",
+      "place":"만화박물관",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.49450942", "126.7885154"],
+      "type": "center",
+      "title": "부천여성청소년센터 댄스연습실1",
+      "pic": "여청댄스1.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"여청",
+      "button": "o",
+    },
+  
+    {
+      "position": ["37.49450942", "126.7885154"],
+      "type": "center",
+      "title": "부천여성청소년센터 댄스연습실2",
+      "pic": "여청댄스2.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"여청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.49450942", "126.7885154"],
+      "type": "center",
+      "title": "부천여성청소년센터 밴드연습실",
+      "pic": "여청밴드.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"여청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.49450942", "126.7885154"],
+      "type": "center",
+      "title": "부천여성청소년센터 어울림투게더",
+      "pic": "여청어울림.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"여청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.49450942", "126.7885154"],
+      "type": "center",
+      "title": "부천여성청소년센터 동아리실",
+      "pic": "여청동아리.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"여청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.52156506", "126.767356"],
+      "type": "studio",
       "title": "부천아트벙커 B39 멀티미디어홀",
       "pic": "아트벙커.jpg",
       "link" : "https://boramaearchive.notion.site/B39-68494202b4224ed1b3bb8efab04ed42b",
