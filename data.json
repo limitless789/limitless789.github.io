@@ -58,6 +58,56 @@ data =
     },
 
     {
+      "position": ["37.4984864", "126.804981"],
+      "type": "center",
+      "title": "산울림 청소년센터 맥놀이판",
+      "pic": "맥놀이판.jpg",
+      "place":"산울림",
+      "link" : "",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4984864", "126.804981"],
+      "type": "center",
+      "title": "산울림 청소년센터 덩실덩실 연습실",
+      "pic": "덩실덩실.jpg",
+      "place":"산울림",
+      "link" : "",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4984864", "126.804981"],
+      "type": "center",
+      "title": "산울림 청소년센터 흔들흔들 연습실",
+      "pic": "흔들흔들.jpg",
+      "place":"산울림",
+      "link" : "",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4984864", "126.804981"],
+      "type": "center",
+      "title": "산울림 청소년센터 야외무대",
+      "pic": "산울림야외.jpg",
+      "place":"산울림",
+      "link" : "",
+      "button":"o",
+    },
+
+    {
+      "position": ["37.4984864", "126.804981"],
+      "type": "center",
+      "title": "산울림 청소년센터 반딧불이 소극장",
+      "pic": "반딧불이.jpg",
+      "place":"산울림",
+      "link" : "",
+      "button":"o",
+    },
+
+    {
       "position": ["37.4882204", "126.77043601"],
       "type": "stage",
       "title": "부천시민회관 대공연장",
@@ -214,11 +264,40 @@ data =
 
     {
       "position": ["37.4990314", "126.79821125"],
-      "type": "center",
+      "type": "book",
       "title": "원미도서관 오픈스튜디오",
       "pic": "오픈스튜디오.jpg",
       "link" : "https://boramaearchive.notion.site/55c826843e3141adb6c543b1103c074d",
       "place":"원미도서관",
+    },
+
+    {
+      "position": ["37.5243735", "126.817032266"],
+      "type": "book",
+      "title": "수주도서관 미디어창작소",
+      "pic": "미디어창작소.jpg",
+      "link" : "",
+      "place":"수주도서관",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.5243735", "126.817032266"],
+      "type": "book",
+      "title": "수주도서관 시청각실",
+      "pic": "수주시청각실.jpg",
+      "link" : "",
+      "place":"수주도서관",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.4804778", "126.79192414"],
+      "type": "book",
+      "title": "호태원",
+      "pic": "호태원.jpg",
+      "link" : "",
+      "place":"호태원",
     },
 
     {
