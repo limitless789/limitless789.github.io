@@ -63,7 +63,7 @@ data =
       "title": "산울림 청소년센터 맥놀이판",
       "pic": "맥놀이판.jpg",
       "place":"산울림",
-      "link" : "",
+      "link" : "https://boramaearchive.notion.site/c6c4b2af472146c8a72b73714de19e27",
       "button":"o",
     },
 
@@ -73,7 +73,7 @@ data =
       "title": "산울림 청소년센터 덩실덩실 연습실",
       "pic": "덩실덩실.jpg",
       "place":"산울림",
-      "link" : "",
+      "link" : "https://boramaearchive.notion.site/5680fde9556e491aae349c2594170c3b",
       "button":"o",
     },
 
@@ -83,7 +83,7 @@ data =
       "title": "산울림 청소년센터 흔들흔들 연습실",
       "pic": "흔들흔들.jpg",
       "place":"산울림",
-      "link" : "",
+      "link" : "https://boramaearchive.notion.site/abbb0b8ef06b425894b3a7e1fe488da2",
       "button":"o",
     },
 
@@ -93,7 +93,7 @@ data =
       "title": "산울림 청소년센터 야외무대",
       "pic": "산울림야외.jpg",
       "place":"산울림",
-      "link" : "",
+      "link" : "https://boramaearchive.notion.site/b043b691377d4314b2c5944d27b13181",
       "button":"o",
     },
 
@@ -103,7 +103,7 @@ data =
       "title": "산울림 청소년센터 반딧불이 소극장",
       "pic": "반딧불이.jpg",
       "place":"산울림",
-      "link" : "",
+      "link" : "https://boramaearchive.notion.site/89d08a7bb39645ee8886f91c4de87c9e",
       "button":"o",
     },
 
@@ -259,6 +259,16 @@ data =
       "pic": "음악녹음실.jpg",
       "link" : "https://boramaearchive.notion.site/B-48ecf53ecb434735bf16be905686f72a",
       "place":"음악공장",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.47613652", "126.80747537"],
+      "type": "center",
+      "title": "소사청소년수련관 목일신홀",
+      "pic": "목일신홀.jpg",
+      "link" : "https://boramaearchive.notion.site/df96cc7d6dd14a2483829db00885186e",
+      "place":"소사청",
       "button": "o",
     },
 
@@ -433,6 +443,36 @@ data =
       "pic": "시청.jpg",
       "place":"시청",
       "link" : "https://boramaearchive.notion.site/3605061ac70141c18b95861788afc96f",
+    },
+
+    {
+      "position": ["37.5023180", "126.7665646" ],
+      "type": "stage",
+      "title": "부천 아트센터 대공연장",
+      "pic": "아트대공.png",
+      "place":"아트센터",
+      "link" : "https://boramaearchive.notion.site/f7a3a2db50c245048c7d12014ae4220f",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.5023180", "126.7665646" ],
+      "type": "stage",
+      "title": "부천 아트센터 소공연장",
+      "pic": "아트소공.jpg",
+      "place":"아트센터",
+      "link" : "https://boramaearchive.notion.site/f7a3a2db50c245048c7d12014ae4220f",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.5023180", "126.7665646" ],
+      "type": "stage",
+      "title": "부천 아트센터 연습실",
+      "pic": "아트연습.png",
+      "place":"아트센터",
+      "link" : "https://boramaearchive.notion.site/f7a3a2db50c245048c7d12014ae4220f",
+      "button": "o",
     },
     
     {
