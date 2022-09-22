@@ -19,6 +19,15 @@ data =
     },
 
     {
+      "position": ["37.4847893", "126.81220197"],
+      "type": "plaza",
+      "title": "역곡역 다행광장",
+      "pic": "다행광장.jpeg",
+      "place":"역곡역",
+      "link" : "https://boramaearchive.notion.site/c3fc8b76abac4983a6096437d3fd252f",
+    },
+
+    {
       "position": ["37.47435837", "126.7897592"],
       "type": "parks",
       "title": "산새공원",
@@ -58,9 +67,19 @@ data =
     },
 
     {
+      "position": ["37.4947512", "126.75401356"],
+      "type": "center",
+      "title": "부천 시민미디어센터",
+      "pic": "복사골미디어.jpeg",
+      "place":"복사골",
+      "link" : "https://boramaearchive.notion.site/ff9fbbb514e94cc9b4d41042babd7095",
+      "button":"o",
+    },
+
+    {
       "position": ["37.4984864", "126.804981"],
       "type": "center",
-      "title": "산울림 청소년센터 맥놀이판",
+      "title": "산울림 청소년센터 맥놀이판 (체육관)",
       "pic": "맥놀이판.jpg",
       "place":"산울림",
       "link" : "https://boramaearchive.notion.site/c6c4b2af472146c8a72b73714de19e27",
@@ -170,7 +189,7 @@ data =
     {
       "position": ["37.51611168", "126.7851572"],
       "type": "center",
-      "title": "도당어울마당 연습실",
+      "title": "도당예술마당",
       "pic": "도당예술마당.jpg",
       "link" : "https://boramaearchive.notion.site/89ac9ceb3b364600a3afc275658b538f",
       "place":"도당어울마당",
@@ -179,7 +198,7 @@ data =
     {
       "position": ["37.5089918", "126.7477179"],
       "type": "center",
-      "title": "상동어울마당 연습실",
+      "title": "상동예술마당",
       "pic": "상동예술마당.jpg",
       "link" : "https://boramaearchive.notion.site/035b2c7b785c4722bf5df3c8bf3bf557",
       "place":"상동어울마당",
@@ -189,7 +208,7 @@ data =
       "position": ["37.4800524", "126.7999412"],
       "type": "center",
       "title": "소사생활문화센터 연습실",
-      "pic": "소사생활센터.jpg",
+      "pic": "소사생활센터.png",
       "link" : "https://boramaearchive.notion.site/199f2ad5f16147d08de9f8a11199c766",
       "place":"소사센터",
     },
@@ -198,7 +217,7 @@ data =
       "position": ["37.5277345", "126.7965501"],
       "type": "center",
       "title": "오정생활문화센터 연습실",
-      "pic": "오정생활센터.jpg",
+      "pic": "오정생활센터.png",
       "link" : "https://boramaearchive.notion.site/ee6c4dd70e094a788e0f7412703daabd",
       "place":"오정아트홀",
       "button": "o",
@@ -212,15 +231,6 @@ data =
       "link" : "https://boramaearchive.notion.site/81a652a6849848848ba8bc8b86edcd57",
       "place":"오정아트홀",
       "button": "o",
-    },
-
-    {
-      "position": ["37.4825230", "126.76656973"],
-      "type": "stage",
-      "title": "솔안아트홀",
-      "pic": "솔안아트홀.jpg",
-      "link" : "https://boramaearchive.notion.site/62a66bf4bfab4e1594eaa6ea229fc35f",
-      "place":"솔안아트홀",
     },
 
     {
@@ -273,6 +283,76 @@ data =
     },
 
     {
+      "position": ["37.47613652", "126.80747537"],
+      "type": "center",
+      "title": "소사청소년수련관 댄스투게더 1",
+      "pic": "소사댄스1.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"소사청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.47613652", "126.80747537"],
+      "type": "center",
+      "title": "소사청소년수련관 댄스투게더 2",
+      "pic": "소사댄스2.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"소사청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.47613652", "126.80747537"],
+      "type": "center",
+      "title": "소사청소년수련관 뮤직투게더",
+      "pic": "소사뮤직.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"소사청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.47613652", "126.80747537"],
+      "type": "center",
+      "title": "소사청소년수련관 어울림투게더",
+      "pic": "소사어울림.jpg",
+      "link" : "https://boramaearchive.notion.site/2656dfab1775466a901e573c86f98afc",
+      "place":"소사청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.4824823", "126.7664992"],
+      "type": "stage",
+      "title": "솔안아트홀",
+      "pic": "솔안아트홀.jpg",
+      "link" : "https://boramaearchive.notion.site/62a66bf4bfab4e1594eaa6ea229fc35f",
+      "place":"송내청",
+      "button": "o",
+    },
+
+    {
+      "position": ["37.4824823", "126.7664992"],
+      "type": "center",
+      "title": "송내청소년센터 소리나래",
+      "pic": "소리나래.jpg",
+      "link" : "https://boramaearchive.notion.site/498611090bb64607bac76975473b808a",
+      "place":"송내청",
+      "button": "o",
+    }, 
+
+    {
+      "position": ["37.4824823", "126.7664992"],
+      "type": "center",
+      "title": "송내청소년센터 몸짓나래",
+      "pic": "몸짓나래.jpg",
+      "link" : "https://boramaearchive.notion.site/e0f970cefe9b4ef0a2fcd48aaa56cb89",
+      "place":"송내청",
+      "button": "o",
+    }, 
+
+    {
       "position": ["37.4990314", "126.79821125"],
       "type": "book",
       "title": "원미도서관 오픈스튜디오",
@@ -304,9 +384,9 @@ data =
     {
       "position": ["37.4804778", "126.79192414"],
       "type": "book",
-      "title": "호태원",
+      "title": "호태원 a freedom",
       "pic": "호태원.jpg",
-      "link" : "",
+      "link" : "https://boramaearchive.notion.site/a-freedom-9840be2e993040cbbd74207dd3f43884",
       "place":"호태원",
     },
 
@@ -461,7 +541,7 @@ data =
       "title": "부천 아트센터 소공연장",
       "pic": "아트소공.jpg",
       "place":"아트센터",
-      "link" : "https://boramaearchive.notion.site/f7a3a2db50c245048c7d12014ae4220f",
+      "link" : "https://boramaearchive.notion.site/b6681c21e156406b97cfbadd656ac739",
       "button": "o",
     },
 
@@ -469,9 +549,9 @@ data =
       "position": ["37.5023180", "126.7665646" ],
       "type": "stage",
       "title": "부천 아트센터 연습실",
-      "pic": "아트연습.png",
+      "pic": "아트연습.jpg",
       "place":"아트센터",
-      "link" : "https://boramaearchive.notion.site/f7a3a2db50c245048c7d12014ae4220f",
+      "link" : "https://boramaearchive.notion.site/07e26e6182a34dd49a6a2048efeb211b",
       "button": "o",
     },
     
