@@ -12,7 +12,7 @@ data =
     {
       "position": ["37.4847614", "126.7828217"],
       "type": "plaza",
-      "title": "부천 마루광장",
+      "title": "부천마루광장",
       "pic": "마루광장.jpg",
       "place":"부천역북부",
       "link" : "https://boramaearchive.notion.site/e2c528c5668a48bdbb8d0af3d731beba",
@@ -79,7 +79,7 @@ data =
     {
       "position": ["37.4984864", "126.804981"],
       "type": "center",
-      "title": "산울림 청소년센터 맥놀이판 (체육관)",
+      "title": "산울림청소년센터 맥놀이판 (체육관)",
       "pic": "맥놀이판.jpg",
       "place":"산울림",
       "link" : "https://boramaearchive.notion.site/c6c4b2af472146c8a72b73714de19e27",
@@ -89,7 +89,7 @@ data =
     {
       "position": ["37.4984864", "126.804981"],
       "type": "center",
-      "title": "산울림 청소년센터 덩실덩실 연습실",
+      "title": "산울림청소년센터 덩실덩실 연습실",
       "pic": "덩실덩실.jpg",
       "place":"산울림",
       "link" : "https://boramaearchive.notion.site/5680fde9556e491aae349c2594170c3b",
@@ -99,7 +99,7 @@ data =
     {
       "position": ["37.4984864", "126.804981"],
       "type": "center",
-      "title": "산울림 청소년센터 흔들흔들 연습실",
+      "title": "산울림청소년센터 흔들흔들 연습실",
       "pic": "흔들흔들.jpg",
       "place":"산울림",
       "link" : "https://boramaearchive.notion.site/abbb0b8ef06b425894b3a7e1fe488da2",
@@ -109,7 +109,7 @@ data =
     {
       "position": ["37.4984864", "126.804981"],
       "type": "center",
-      "title": "산울림 청소년센터 야외무대",
+      "title": "산울림청소년센터 야외무대",
       "pic": "산울림야외.jpg",
       "place":"산울림",
       "link" : "https://boramaearchive.notion.site/b043b691377d4314b2c5944d27b13181",
@@ -119,7 +119,7 @@ data =
     {
       "position": ["37.4984864", "126.804981"],
       "type": "center",
-      "title": "산울림 청소년센터 반딧불이 소극장",
+      "title": "산울림청소년센터 반딧불이 소극장",
       "pic": "반딧불이.jpg",
       "place":"산울림",
       "link" : "https://boramaearchive.notion.site/89d08a7bb39645ee8886f91c4de87c9e",
@@ -519,7 +519,7 @@ data =
     {
       "position": ["37.50241567", "126.76579533" ],
       "type": "plaza",
-      "title": "시청 특설무대",
+      "title": "부천시청 특별무대",
       "pic": "시청.jpg",
       "place":"시청",
       "link" : "https://boramaearchive.notion.site/3605061ac70141c18b95861788afc96f",
@@ -567,7 +567,7 @@ data =
     {
       "position": ["37.48825402", "126.7535599" ],
       "type": "plaza",
-      "title": "송내 무지개광장",
+      "title": "송내무지개광장",
       "pic": "무지개광장.jpg",
       "place":"송내역",
       "link" : "https://boramaearchive.notion.site/7585e59f76a14e358aaa1d5c4188caa5",
